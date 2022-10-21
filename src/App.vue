@@ -50,7 +50,7 @@ import { Contract, Web3Provider, Provider } from "zksync-web3";
 import { ethers } from "ethers";
 
 // eslint-disable-next-line
-const GREETER_CONTRACT_ADDRESS = '0xde6F8317fbA4D80B7c90E3682e6b79e58861BbeF'; // TODO: Add smart contract address
+const GREETER_CONTRACT_ADDRESS = '0x04459e903701D6d2dd15BFF42eC27727f429578e'; // TODO: Add smart contract address
 // eslint-disable-next-line
 const GREETER_CONTRACT_ABI = [ { "inputs": [ { "internalType": "string", "name": "_greeting", "type": "string" } ], "stateMutability": "nonpayable", "type": "constructor" }, { "inputs": [], "name": "greet", "outputs": [ { "internalType": "string", "name": "", "type": "string" } ], "stateMutability": "view", "type": "function" }, { "inputs": [ { "internalType": "string", "name": "_greeting", "type": "string" } ], "name": "setGreeting", "outputs": [], "stateMutability": "nonpayable", "type": "function" } ]; // TODO: Add link to the ABI  
 
